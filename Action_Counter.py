@@ -82,7 +82,7 @@ ax.legend()
 fig.tight_layout()
 
 # Mostrar el gráfico
-plt.show()
+plt.show(block=False)
 
 # Crear una ventana de Tkinter para mostrar los datos en formato de tabla
 data_window = Tk()
